@@ -1,0 +1,71 @@
+*{
+	text-transform: uppercase;
+}
+p{
+	color: red; /*pakeista texto spalva*/
+}
+article{
+	color: blue;
+	text-align: center;
+}
+h1{
+	text-transform: uppercase;
+}
+#vip{ /*id selektorius*/
+	color: aqua;
+}
+.super{
+	font-size: 2em;
+}
+.bg-red{
+	background: red;
+}
+a{
+	color: pink;
+}
+a[href="http://kitm.lt"]{
+	color: red;
+}
+a[href="http://delfi.lt"]{
+	color: forestgreen;
+}
+a[href="http://15min.lt"]{
+	color: cyan;
+}
+a[href*=".pdf"]{
+	color: green;
+}
+a[href*=".xlsx"]{
+	color: yellow;
+}
+a[href$=".ppt"]{
+	color: black;
+}
+a:hover{ /*pseudo klases selektorius*/
+	color: aqua;
+}
+article:hover{
+	background-color: aqua;
+}
+/*ul :nth-child(even) a{
+	background-color: pink;
+}*/
+section ul li:nth-child(2n+1){
+	background-color: pink;
+}
+p::first-letter{
+	font-size: 4em;
+}
+.document-list ul li{
+	background-color: green;
+}
+h1, h2{
+	text-align: right;
+}
+
+.catalog ul > li{
+	color: blue;
+}
+.catalog ul>li>ul>li{
+	color: green
+}
